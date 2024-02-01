@@ -45,7 +45,7 @@ export const FILECOIN_DEV_SUMMIT_ETH_DENVER_2024_PAGE_CONTENT = [
           {
             id: 'media',
             type: BlockTypeEnum.TICKET_CARD,
-            price: '',
+            price: '$20',
             name: 'FIL Dev Summit ETH Denver 2024',
             backgroundColor: 'white',
             textColor: 'black',
@@ -57,7 +57,7 @@ export const FILECOIN_DEV_SUMMIT_ETH_DENVER_2024_PAGE_CONTENT = [
               buttonColor: 'linear-gradient(to right,#39C1CB, #006FEC)',
               textColor: 'white',
               text: 'Register',
-              link: 'https://airtable.com/appEjnh5rpWMsjocb/shran7li4slfQSB04',
+              link: 'https://lu.ma/FDS-EthDenver',
             },
           },
         ],
@@ -224,13 +224,7 @@ export const FILECOIN_DEV_SUMMIT_ETH_DENVER_2024_PAGE_CONTENT = [
             id: 'media',
             type: BlockTypeEnum.COLLAPSABLE,
             title: 'Is there a cost to attend?',
-            collapsedText: `This is an invite only event. Please register using [this form to attend]().
-
-- General Admission ($150 USD)
-- Early Bird Ticket  ($75 USD), now through Aug 25th!
-- Supporters ticket ($1500 USD):  Your supporter's ticket covers the cost of your own attendance & contributes to the FIL Dev Scholar's Program for others to attend as well. Thank you for your support!
-- Scholars - Limited Tickets Available. [Apply as a scholar](https://airtable.com/appEjnh5rpWMsjocb/shrusGnJBsjYDlcwS). 
-`,
+            collapsedText: `This is an invite only event. Please register using [this form to attend](https://lu.ma/FDS-EthDenver).`,
             backgroundColor: 'linear-gradient(to right,#39C1CB, #006FEC)',
           },
           {
@@ -313,7 +307,7 @@ export const FIL_DEV_SUMMIT_ETH_DENVER_2024_NAVIGATION_CONTENT = {
       text: 'Register to Attend',
       buttonColor: 'linear-gradient(to right,#39C1CB, #006FEC)',
       textColor: 'white',
-      href: '',
+      href: 'https://lu.ma/FDS-EthDenver',
       target: '_blank',
     },
   ],
