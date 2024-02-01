@@ -7,10 +7,13 @@ export const airtableFormattedFieldsMap = {
   Title: 'title',
   'Talk or Track?': 'type',
   'Talk or Track': 'type',
+  'Is this a submission for a talk or track?': 'type',
   'Start Time': 'startTime', // date + time
   'Youtube Link': 'videoLink',
+  'YouTube Link': 'videoLink',
   TrackLink: 'trackLink',
   'Twitter Profile URL': 'twitterUrl',
+  'Twitter or Fediverse Profile URL': 'twitterUrl',
   'Confirmed for website': 'confirmedForWebsite',
   'Confirmed for Website': 'confirmedForWebsite',
   'Video Status/Comment': 'videoStatus',
@@ -22,6 +25,8 @@ export const airtableFormattedFieldsMap = {
   'What track(s) would be suitable for your session?': 'tracks',
   'What track(s) would be suitable for your session': 'tracks',
   'What category(s) would be suitable for your session?': 'tracks',
+  'Category': 'tracks',
+  'If Other, please specify': 'tracks',
   'Archive of Original Tracks Submission': 'tracksSubmittedFor',
   'What format(s) are suitable for your talk or workshop?': 'format',
   'Talk Status': 'status',
@@ -33,14 +38,20 @@ export const airtableFormattedFieldsMap = {
   'Slide Deck': 'slidesLink',
 
   // speaker / track lead
+  'Title & Organization / Project': 'spkrTitle',
   'Title & Organization': 'spkrTitle',
   'If you are affiliated with an organization and would like your logo to be displayed on our event website as a participating team at IPFS thing, please upload a high res image below.':
     'logo',
+  'If you are affiliated with an organization and would like your logo to be displayed on our event website as a participating team at FIL Dev Summit, please upload a high res image below.': 
+    'logo',
   Headshot: 'headshot',
+  'Headshot or Avatar': 'headshot',
   'Email Address': 'email',
   'First Name': 'firstName',
   'Last Name': 'lastName',
   alias: 'prefersAlias',
+  'What name or alias do you prefer to use for this event?': 'prefersAlias',
+  'I prefer to have an alias / Github displayed on my track or talk instead of my full name.': 'prefersAlias',
   'I prefer to have an alias displayed on my track or talk instead of my full name.': 'prefersAlias',
   'I prefer to have an alias displayed on my track or talk instead of my full name': 'prefersAlias',
   'Speaker Listing Name': 'alias',
