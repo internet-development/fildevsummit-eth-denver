@@ -134,7 +134,7 @@ export const FILECOIN_DEV_SUMMIT_ETH_DENVER_2024_PAGE_CONTENT = [
       text: 'Showcase Your Project at the EXPO',
       buttonColor: 'linear-gradient(to right,#39C1CB, #006FEC)',
       // replace link
-      link: 'https://airtable.com/appEjnh5rpWMsjocb/shr4Pv7K5CxTo6DGi',
+      link: 'https://airtable.com/appHcADfPc1dtLsTL/shrJKBdQLs9Vvm5HE',
     },
     block: [
       {

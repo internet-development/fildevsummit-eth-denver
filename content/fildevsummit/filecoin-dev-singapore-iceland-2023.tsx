@@ -538,7 +538,7 @@ export const FILECOIN_DEV_SUMMIT_NAVIGATION_CONTENT = {
       text: 'Apply to Attend',
       buttonColor: 'linear-gradient(to right,#39C1CB, #006FEC)',
       textColor: 'white',
-      href: 'https://airtable.com/appHcADfPc1dtLsTL/shrJKBdQLs9Vvm5HE',
+      href: 'https://airtable.com/appEjnh5rpWMsjocb/shran7li4slfQSB04',
       target: '_blank',
     },
   ],
