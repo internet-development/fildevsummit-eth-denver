@@ -127,14 +127,15 @@ export const FILECOIN_DEV_SUMMIT_ETH_DENVER_2024_PAGE_CONTENT = [
     direction: BlockDirectionEnum.COLUMN,
     title: 'Event Schedule',
     description: "",
-    // cta: {
-    //   type: CallToActionVariantEnum.BUTTON,
-    //   textColor: 'white',
-    //   target: '_blank',
-    //   text: 'Showcase Your Project at the EXPO',
-    //   buttonColor: 'linear-gradient(to right,#39C1CB, #006FEC)',
-    //   link: 'https://airtable.com/appEjnh5rpWMsjocb/shr4Pv7K5CxTo6DGi',
-    // },
+    cta: {
+      type: CallToActionVariantEnum.BUTTON,
+      textColor: 'white',
+      target: '_blank',
+      text: 'Showcase Your Project at the EXPO',
+      buttonColor: 'linear-gradient(to right,#39C1CB, #006FEC)',
+      // replace link
+      link: 'https://airtable.com/appEjnh5rpWMsjocb/shr4Pv7K5CxTo6DGi',
+    },
     block: [
       {
         type: BlockTypeEnum.SCHEDULE_ETH_DENVER,
