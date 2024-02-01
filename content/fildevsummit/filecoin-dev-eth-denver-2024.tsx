@@ -138,7 +138,7 @@ export const FILECOIN_DEV_SUMMIT_ETH_DENVER_2024_PAGE_CONTENT = [
     },
     block: [
       {
-        type: BlockTypeEnum.SCHEDULE_ETH_DENVER,
+        type: BlockTypeEnum.SCHEDULE_ETHDENVER,
         scheduleData: FIL_DEV_SUMMIT_ETH_DENVER,
       },
     ],
