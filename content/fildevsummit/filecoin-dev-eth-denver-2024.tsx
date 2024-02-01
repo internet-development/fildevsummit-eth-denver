@@ -14,19 +14,27 @@ export const FIL_DEV_SUMMIT_PAGE_STYLE_CONTENT = {
 };
 
 //replace
-export const FIL_DEV_SUMMIT_ICELAND = {
-  airtable: {
-    tableName: 'NA/EU Talk Track Submissions + Forms',
-    endPoint: 'airtable/iceland',
-    data: [],
-  },
-};
+// export const FIL_DEV_SUMMIT_ICELAND = {
+//   airtable: {
+//     tableName: 'NA/EU Talk Track Submissions + Forms',
+//     endPoint: 'airtable/iceland',
+//     data: [],
+//   },
+// };
 
 //replace
-export const FIL_DEV_SUMMIT_SINGAPORE = {
+// export const FIL_DEV_SUMMIT_SINGAPORE = {
+//   airtable: {
+//    tableName: 'Asia Talk Track Submissions + Forms',
+//     endPoint: 'airtable/singapore',
+//     data: [],
+//   },
+// };
+
+export const FIL_DEV_SUMMIT_ETH_DENVER = {
   airtable: {
-    tableName: 'Asia Talk Track Submissions + Forms',
-    endPoint: 'airtable/singapore',
+    tableName: 'ETHDenver Talk Track Submissions + Forms',
+    endPoint: 'airtable/ethdenver',
     data: [],
   },
 };
@@ -115,9 +123,9 @@ export const FILECOIN_DEV_SUMMIT_ETH_DENVER_2024_PAGE_CONTENT = [
   },
 
   {
-    id: 'iceland',
+    id: 'schedule-ethdenver',
     direction: BlockDirectionEnum.COLUMN,
-    title: 'Event Schedule is coming soon',
+    title: 'Event Schedule',
     description: "",
     // cta: {
     //   type: CallToActionVariantEnum.BUTTON,
@@ -127,12 +135,12 @@ export const FILECOIN_DEV_SUMMIT_ETH_DENVER_2024_PAGE_CONTENT = [
     //   buttonColor: 'linear-gradient(to right,#39C1CB, #006FEC)',
     //   link: 'https://airtable.com/appEjnh5rpWMsjocb/shr4Pv7K5CxTo6DGi',
     // },
-    // block: [
-    //   {
-    //     type: BlockTypeEnum.SCHEDULE_ICELAND,
-    //     scheduleData: FIL_DEV_SUMMIT_ICELAND,
-    //   },
-    // ],
+    block: [
+      {
+        type: BlockTypeEnum.SCHEDULE_ETH_DENVER,
+        scheduleData: FIL_DEV_SUMMIT_ETH_DENVER,
+      },
+    ],
   },
   {
     id: 'faqs',
