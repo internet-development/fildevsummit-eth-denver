@@ -13,7 +13,7 @@ if (process.env.NODE_ENV !== 'production') {
   export default async function apiAirtableStakingTable(req, res) {
     await Server.cors(req, res);
   
-    const name = 'ETHDenver Talk Track Submissions + Forms';
+    const name = 'Talk / Track Submissions + Forms';
   
     try {
       const base = new Airtable({

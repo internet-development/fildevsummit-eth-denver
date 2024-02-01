@@ -33,7 +33,7 @@ export const FIL_DEV_SUMMIT_PAGE_STYLE_CONTENT = {
 
 export const FIL_DEV_SUMMIT_ETH_DENVER = {
   airtable: {
-    tableName: 'ETHDenver Talk Track Submissions + Forms',
+    tableName: 'Talk / Track Submissions + Forms',
     endPoint: 'airtable/ethdenver',
     data: [],
   },
