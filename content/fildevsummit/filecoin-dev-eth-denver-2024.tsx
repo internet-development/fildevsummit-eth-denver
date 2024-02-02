@@ -116,7 +116,7 @@ export const FILECOIN_DEV_SUMMIT_ETH_DENVER_2024_PAGE_CONTENT = [
         smallDesc: 'Organized by Miwa',
         image: {
           alt: 'eth-denver-fil-dev-summit',
-          src: '/media/iceland-full.jpg',
+          src: '/media/denver-full.jpg',
         },
       },
     ],
