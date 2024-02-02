@@ -24,7 +24,7 @@ export async function generateMetadata({ params, searchParams }) {
       description,
       url,
       // SUMMARY_LARGE_IMAGE: 1500x785
-      images: ['/media/featured-image.png'],
+      images: ['https://ibb.co/k4Sz2W1'],
     },
     twitter: {
       title,
