@@ -90,15 +90,13 @@ export const FILECOIN_DEV_SUMMIT_ETH_DENVER_2024_PAGE_CONTENT = [
         type: BlockTypeEnum.LOGO_GRID,
         logosLarge: [
           {
-            src: 'https://i.ibb.co/Dt6G116/logo-black-text.png',
-            href: 'https://web3mine.io/',
-          },
-          /*
-          {
             src: '/media/protocollabs.png',
             href: 'https://protocol.ai/',
           },
-          */
+          {
+            src: 'https://i.ibb.co/Dt6G116/logo-black-text.png',
+            href: 'https://web3mine.io/',
+          },
           /*
           {
             src: '/media/ff-logo2.png',
