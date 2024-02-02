@@ -15,7 +15,7 @@ if (!IS_PRODUCTION) {
 }
 
 export default function SCHEDULE_ETH_DENVER({ scheduleData }) {
-  const [icelandData, setIcelandData] = useState<any[] | null>(null);
+  const [denverData, setDenverData] = useState<any[] | null>(null);
   const [speakers, setSpeakers] = useState<any[]>([]);
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -23,8 +23,9 @@ export default function SCHEDULE_ETH_DENVER({ scheduleData }) {
     if (scheduleData?.airtable?.tableName) {
       const organizeData = async () => {
         const formattedAirtableData = formatAirtableMetaData(scheduleData?.airtable?.data);
+        console.log('formattedAirtableData', formattedAirtableData)
         const fetchedSpeakers = getSpeakers(formattedAirtableData);
-        setIcelandData(formattedAirtableData);
+        setDenverData(formattedAirtableData);
         setSpeakers(fetchedSpeakers);
       };
 
@@ -36,14 +37,14 @@ export default function SCHEDULE_ETH_DENVER({ scheduleData }) {
     setIsExpanded(!isExpanded);
   };
 
-  if (!icelandData) return null;
+  if (!denverData) return null;
 
   const submitTrack = {
     text: 'submit a track or talk for ETHDenver',
     url: 'https://airtable.com/appHcADfPc1dtLsTL/shrJKBdQLs9Vvm5HE',
   };
-  const emptyDatesToAdd = ['Fri Sep 28 2023 20:00:00 GMT+0900 (Japan Standard Time)'];
-  const formattedAirtableData = getFormattedAirtableFields(icelandData);
+  const emptyDatesToAdd = [''];
+  const formattedAirtableData = getFormattedAirtableFields(denverData);
   const calendarData = calendarDataWithAddedDates(formattedAirtableData, emptyDatesToAdd);
 
   return (
