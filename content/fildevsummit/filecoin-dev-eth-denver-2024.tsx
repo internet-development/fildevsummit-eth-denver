@@ -82,7 +82,7 @@ export const FILECOIN_DEV_SUMMIT_ETH_DENVER_2024_PAGE_CONTENT = [
       buttonColor: 'linear-gradient(to right,#39C1CB, #006FEC)',
       textColor: 'white',
       text: 'Sponsor FIL Dev Summit ETHDenver 2024',
-      link: '',
+      link: 'https://airtable.com/appHcADfPc1dtLsTL/shrLacwJyqpPubZwF',
     },
     block: [
       {
@@ -153,7 +153,7 @@ export const FILECOIN_DEV_SUMMIT_ETH_DENVER_2024_PAGE_CONTENT = [
         collapsables: [
           {
             type: BlockTypeEnum.COLLAPSABLE,
-            title: 'What is FIL Dev Summit - ETHDenver 2024?',
+            title: 'What is FIL Dev Summit @ ETHDenver 2024?',
             collapsedText:
               'FIL Dev Summit is a gathering of developers, builders, and engaged community members who want to contribute to the core protocol and network evolution of Filecoin (think IPFS Thing, but bigger!). This would include FVM smart contract builders, core protocol devs, implementation engineering teams, tool builders, large storage clients, and even token holders engaged in network governance. Our goal would be to build alignment around the current roadmap and trajectory of protocol improvements, improve our dev tooling and capabilities, grow inter- and intra-team connections, and accelerate upcoming launches in Q4/Q1.',
             backgroundColor: 'linear-gradient(to right,#39C1CB, #006FEC)',
@@ -184,7 +184,7 @@ export const FILECOIN_DEV_SUMMIT_ETH_DENVER_2024_PAGE_CONTENT = [
 
 - **Volunteer**: Email [hello@fildev.io](mailto:hello@fildev.io) if you’d like to help make the production of this event a success. We could really use your help!
 
-- **Sponsor**: Your support helps bring together different teams from around the world to advance the core protocol development and evolve the Filecoin network. If you’re interested in sponsorship, please email us at [hello@fildev.io](mailto:hello@fildev.io) for more information.		
+- **Sponsor**: Your support helps bring together different teams from around the world to advance the core protocol development and evolve the Filecoin network. If you’re interested in sponsorship, please fill out this [form](https://airtable.com/appHcADfPc1dtLsTL/shrLacwJyqpPubZwF) or email us at [hello@fildev.io](mailto:hello@fildev.io) for more information.		
 
 - **Keep up the momentum!**: After the event, all of the tracks will be posted to the Filecoin Youtube channel. Be sure to share your talk or track videos with the world! Help the broader community see all of the great work that has transpired and get a sense of what they can expect to see more of for the rest of the year and beyond.`,
             backgroundColor: 'linear-gradient(to right,#39C1CB, #006FEC)',
