@@ -47,8 +47,8 @@ export function Block({ block }) {
       return <ScheduleIceland {...block} />;
     case (block.type = BlockTypeEnum.SCHEDULE_SINGAPORE):
       return <ScheduleSingapore {...block} />;
-    case (block.type = BlockTypeEnum.SCHEDULE_ETHDENVER):
-      return <ScheduleETHDenver {...block} />;
+    // case (block.type = BlockTypeEnum.SCHEDULE_ETHDENVER):
+    //   return <ScheduleETHDenver {...block} />;
     case (block.type = BlockTypeEnum.SCHEDULE_LIST_BY_TRACK_ICELAND):
       return <ScheduleListByTrack {...block} />;
     case (block.type = BlockTypeEnum.SCHEDULE_LIST_BY_TALK_ICELAND):
