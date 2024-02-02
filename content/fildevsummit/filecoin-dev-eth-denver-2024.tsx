@@ -180,12 +180,9 @@ export const FILECOIN_DEV_SUMMIT_ETH_DENVER_2024_PAGE_CONTENT = [
 
 - **Tell a friend**: Let us know if there is someone you think we should invite, or direct them to our [website](https://2024.fildev.io/) .
 
-- **Lead a Track**: (COMING SOON) - Submit your track for either/both locations in the schedule section of our [website](https://2024.fildev.io/).
-
-- **Give a Talk**: (COMING SOON) -  Not ready to lead an entire track, but still would like to contribute? Submit your talk in the event schedule section of our website.
+- **Give a Talk**:   Submit your talk by filling out [this form](https://airtable.com/appHcADfPc1dtLsTL/shrJKBdQLs9Vvm5HE).
 
 - **Volunteer**: Email [hello@fildev.io](mailto:hello@fildev.io) if you’d like to help make the production of this event a success. We could really use your help!
-
 
 - **Sponsor**: Your support helps bring together different teams from around the world to advance the core protocol development and evolve the Filecoin network. If you’re interested in sponsorship, please email us at [hello@fildev.io](mailto:hello@fildev.io) for more information.		
 
@@ -212,23 +209,23 @@ export const FILECOIN_DEV_SUMMIT_ETH_DENVER_2024_PAGE_CONTENT = [
       {
         type: BlockTypeEnum.COLLAPSABLES,
         collapsables: [
-          {
-            id: 'media',
-            type: BlockTypeEnum.COLLAPSABLE,
-            title: 'What is the track system and how does it work?',
-            collapsedText: `This is a choose-your-own-adventure event, so please choose the track(s), sessions, arrival and departure dates, and activities that are interesting and relevant to you. We are actively working on putting together an amazing schedule based on your submissions, suggestions, and feedback. Help shape this event by submitting your own talk or track!
+//           {
+//             id: 'media',
+//             type: BlockTypeEnum.COLLAPSABLE,
+//             title: 'What is the track system and how does it work?',
+//             collapsedText: `This is a choose-your-own-adventure event, so please choose the track(s), sessions, arrival and departure dates, and activities that are interesting and relevant to you. We are actively working on putting together an amazing schedule based on your submissions, suggestions, and feedback. Help shape this event by submitting your own talk or track!
 
-- [Submit a track for Fil Dev Summit ETHDenver]()`,
-            backgroundColor: 'linear-gradient(to right,#39C1CB, #006FEC)',
-          },
-          {
-            id: 'media',
-            type: BlockTypeEnum.COLLAPSABLE,
-            title: 'How can I lead a track?',
-            collapsedText:
-              'Please fill out the provided forms for [FIL Dev Summit ETHDenver]() to lead a track or a talk.',
-            backgroundColor: 'linear-gradient(to right,#39C1CB, #006FEC)',
-          },
+// - [Submit a track for Fil Dev Summit ETHDenver]()`,
+//             backgroundColor: 'linear-gradient(to right,#39C1CB, #006FEC)',
+//           },
+          // {
+          //   id: 'media',
+          //   type: BlockTypeEnum.COLLAPSABLE,
+          //   title: 'How can I lead a track?',
+          //   collapsedText:
+          //     'Please fill out the provided forms for [FIL Dev Summit ETHDenver]() to lead a track or a talk.',
+          //   backgroundColor: 'linear-gradient(to right,#39C1CB, #006FEC)',
+          // },
           {
             id: 'media',
             type: BlockTypeEnum.COLLAPSABLE,
