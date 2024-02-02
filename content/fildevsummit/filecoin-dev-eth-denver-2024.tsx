@@ -93,10 +93,12 @@ export const FILECOIN_DEV_SUMMIT_ETH_DENVER_2024_PAGE_CONTENT = [
             src: '/media/protocollabs.png',
             href: 'https://protocol.ai/',
           },
+          /*
           {
             src: '/media/ff-logo2.png',
             href: 'https://fil.org/',
           },
+          */
         ],
       },
     ],
