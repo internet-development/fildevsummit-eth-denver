@@ -9,13 +9,42 @@ import SectionEventPage from '@root/components/SectionEventPage';
 import { makeRequest } from '@root/common/utilities';
 import { FILECOIN_DEV_SUMMIT_ETH_DENVER_2024_HERO_CONTENT, FIL_DEV_SUMMIT_ETH_DENVER_2024_NAVIGATION_CONTENT, FILECOIN_DEV_SUMMIT_ETH_DENVER_2024_PAGE_CONTENT, FIL_DEV_SUMMIT_PAGE_STYLE_CONTENT, FOOTER_FILECOIN_DEV_SUMMIT_CONTENT } from '@root/content/fildevsummit/filecoin-dev-eth-denver-2024';
 
+// export async function generateMetadata({ params, searchParams }) {
+//   const title = 'FIL Dev Summit 2024: ETHDenver';
+//   const description =
+//     'FIL Dev Summit is a gathering of developers, builders, and engaged community members who want to contribute to the core protocol and network evolution of Filecoin (think IPFS Thing, but bigger!).';
+//   const url = 'https://fildev.io';
+
+//   return {
+//     title,
+//     description,
+//     url,
+//     openGraph: {
+//       title,
+//       description,
+//       url,
+//       // SUMMARY_LARGE_IMAGE: 1500x785
+//       images: ['https://ibb.co/7Q1j5Z6'],
+//     },
+//     twitter: {
+//       title,
+//       description,
+//       url,
+//       handle: '@filecoin',
+//       cardType: 'summary_large_image',
+//     },
+//   };
+// }
+
 export async function generateMetadata({ params, searchParams }) {
   const title = 'FIL Dev Summit 2024: ETHDenver';
   const description =
     'FIL Dev Summit is a gathering of developers, builders, and engaged community members who want to contribute to the core protocol and network evolution of Filecoin (think IPFS Thing, but bigger!).';
-  const url = 'https://fildev.io';
+  const url = 'https://2024.fildev.io';
+  const handle = '@filecoin';
 
   return {
+    metadataBase: new URL('https://2024.fildev.io'),
     title,
     description,
     url,
@@ -23,15 +52,33 @@ export async function generateMetadata({ params, searchParams }) {
       title,
       description,
       url,
-      // SUMMARY_LARGE_IMAGE: 1500x785
-      images: ['https://ibb.co/k4Sz2W1'],
+      type: 'website',
+      images: [
+        {
+          url: '/media/open-graph.png',
+          width: 1200,
+          height: 628,
+        },
+      ],
     },
     twitter: {
       title,
       description,
       url,
-      handle: '@filecoin',
-      cardType: 'summary_large_image',
+      handle,
+      card: 'summary_large_image',
+      images: ['/media/open-graph.png'],
+    },
+    icons: {
+      icon: '/favicon-32x32.png',
+      shortcut: '/favicon-16x16.png',
+      apple: [{ url: '/apple-touch-icon.png' }, { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
+      other: [
+        {
+          rel: 'apple-touch-icon-precomposed',
+          url: '/apple-touch-icon-precomposed.png',
+        },
+      ],
     },
   };
 }
