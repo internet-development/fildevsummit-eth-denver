@@ -238,7 +238,7 @@ export const FILECOIN_DEV_SUMMIT_ETH_DENVER_2024_PAGE_CONTENT = [
             type: BlockTypeEnum.COLLAPSABLE,
             title: 'How can I sponsor? What does it include?',
             collapsedText:
-              'Yes! We offer multiple levels of sponsorship. Please fill out our [sponsor form]() for more information on what is included in each sponsorship.',
+              'Yes! We offer multiple levels of sponsorship. Please fill out our [sponsor form](https://airtable.com/appHcADfPc1dtLsTL/shrLacwJyqpPubZwF) for more information on what is included in each sponsorship.',
             backgroundColor: 'linear-gradient(to right,#39C1CB, #006FEC)',
           },
           {
