@@ -33,7 +33,7 @@ export const FIL_DEV_SUMMIT_PAGE_STYLE_CONTENT = {
 
 export const FIL_DEV_SUMMIT_ETH_DENVER = {
   airtable: {
-    tableName: 'Talk / Track Submissions + Forms',
+    tableName: '🗣️Talk Submissions + Forms',
     endPoint: 'airtable/ethdenver',
     data: [],
   },
@@ -131,7 +131,7 @@ export const FILECOIN_DEV_SUMMIT_ETH_DENVER_2024_PAGE_CONTENT = [
       type: CallToActionVariantEnum.BUTTON,
       textColor: 'white',
       target: '_blank',
-      text: 'Showcase Your Project at the EXPO',
+      text: 'Submit a Track or Talk for ETHDenver',
       buttonColor: 'linear-gradient(to right,#39C1CB, #006FEC)',
       // replace link
       link: 'https://airtable.com/appHcADfPc1dtLsTL/shrJKBdQLs9Vvm5HE',
