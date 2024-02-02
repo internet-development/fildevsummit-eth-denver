@@ -23,7 +23,6 @@ export default function SCHEDULE_ETH_DENVER({ scheduleData }) {
     if (scheduleData?.airtable?.tableName) {
       const organizeData = async () => {
         const formattedAirtableData = formatAirtableMetaData(scheduleData?.airtable?.data);
-        console.log('formattedAirtableData', formattedAirtableData)
         const fetchedSpeakers = getSpeakers(formattedAirtableData);
         setDenverData(formattedAirtableData);
         setSpeakers(fetchedSpeakers);

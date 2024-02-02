@@ -28,7 +28,7 @@ export const EVENT_PAGE_HERO_CONTENT = {
     {
       type: CallToActionVariantEnum.BUTTON,
       target: '_blank',
-      text: 'Submit a Talk or a Track ',
+      text: 'Submit a Talk  ',
       link: '#tickets',
     },
     {

@@ -10,7 +10,7 @@ import { makeRequest } from '@root/common/utilities';
 import { FILECOIN_DEV_SUMMIT_ETH_DENVER_2024_HERO_CONTENT, FIL_DEV_SUMMIT_ETH_DENVER_2024_NAVIGATION_CONTENT, FILECOIN_DEV_SUMMIT_ETH_DENVER_2024_PAGE_CONTENT, FIL_DEV_SUMMIT_PAGE_STYLE_CONTENT, FOOTER_FILECOIN_DEV_SUMMIT_CONTENT } from '@root/content/fildevsummit/filecoin-dev-eth-denver-2024';
 
 export async function generateMetadata({ params, searchParams }) {
-  const title = 'FIL Dev Summit 2024: ETH Denver';
+  const title = 'FIL Dev Summit 2024: ETHDenver';
   const description =
     'FIL Dev Summit is a gathering of developers, builders, and engaged community members who want to contribute to the core protocol and network evolution of Filecoin (think IPFS Thing, but bigger!).';
   const url = 'https://fildev.io';

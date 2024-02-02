@@ -341,7 +341,7 @@ export const FILECOIN_DEV_SUMMIT_2023_PAGE_CONTENT = [
         collapsables: [
           {
             type: BlockTypeEnum.COLLAPSABLE,
-            title: 'What is FIL Dev Summit - ETH Denver 2024?',
+            title: 'What is FIL Dev Summit - ETHDenver 2024?',
             collapsedText:
               'FIL Dev Summit is a gathering of developers, builders, and engaged community members who want to contribute to the core protocol and network evolution of Filecoin (think IPFS Thing, but bigger!). This would include FVM smart contract builders, core protocol devs, implementation engineering teams, tool builders, large storage clients, and even token holders engaged in network governance. Our goal would be to build alignment around the current roadmap and trajectory of protocol improvements, improve our dev tooling and capabilities, grow inter- and intra-team connections, and accelerate upcoming launches in Q4/Q1.',
             backgroundColor: 'linear-gradient(to right,#39C1CB, #006FEC)',
